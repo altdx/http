@@ -13,35 +13,34 @@ export class Request implements IRequest {
   }
 
   public getHost(): HTTP_HEADERS_TYPES {
-
-    return this.request.headers.get('host')
+    return this.request.headers.get('host');
   } 
 
   public getUserAgent(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('user-agent')
+    return this.request.headers.get('user-agent');
   }
 
   public getAccept(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('accept')
+    return this.request.headers.get('accept');
   }
 
   public getAcceptLanguage(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('accept-language')
+    return this.request.headers.get('accept-language');
   }
 
   public getAcceptEncoding(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('accept-encoding')
+    return this.request.headers.get('accept-encoding');
   }
 
   public getConnection(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('connection')
+    return this.request.headers.get('connection');
   }
 
   public getCookie(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('cookie')
+    return this.request.headers.get('cookie');
   }
 
   public getUpgradeInsecureRequest(): HTTP_HEADERS_TYPES {
-    return this.request.headers.get('upgrade-insecure-requests')
+    return this.request.headers.get('upgrade-insecure-requests');
   }
 }
